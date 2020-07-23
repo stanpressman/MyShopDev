@@ -13,8 +13,8 @@ namespace MyShop.Core.Models
 
         public BaseEntity()
         {
-            this.ID = Guid.NewGuid().ToString();
-            this.CreatedAt = DateTime.Now;
+            ID = Guid.NewGuid().ToString();
+            CreatedAt = DateTime.Now;
         }
     }
 }
